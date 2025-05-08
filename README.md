@@ -1,5 +1,4 @@
-# 📊 El Modelo Conoce al Cliente
-Clustering, Recomendaciones y Forecasting para Maximizar tus Ventas
+# Potencia las Ventas con IA: Aprende a Usar Clustering, Predicción, sistemas de recomendaciones y AI generativa para construir un asistente de venta de consumo mayorista.
 
 ## 🧠  Descripción y Objetivo del Proyecto
 
@@ -47,32 +46,27 @@ La mentoría busca que los participantes apliquen metodologías reales de cienci
 ¿Qué variables influyen más en el volumen de ventas y cómo varían según el cliente?
 
 ## 🧪 Estructura de los Prácticos (a definir)
-✅ Práctico 1 – Análisis y Visualización
-Consistirá en una exploración inicial del dataset para comprender su estructura y principales variables (ventas, frecuencia, productos, fechas, etc.).
-Se generarán visualizaciones que permitan identificar tendencias, estacionalidades y anomalías.
 
-📦 Herramientas: Pandas, Matplotlib, Seaborn, Plotly
+✅ Práctico 1 – Análisis y Visualización
+
+Consistira en la exploración inicial del dataset para comprender la estructura de los datos y sus principales características. Se realizará un análisis descriptivo de las variables más relevantes (volumen de ventas, frecuencia de compra, productos, puntos de venta, fechas, entre otros), y se generarán visualizaciones que permitan detectar tendencias, estacionalidades, patrones de comportamiento y posibles anomalías.
+
+El objetivo de este práctico es familiarizarse con la base de datos, identificar relaciones significativas entre variables y establecer hipótesis iniciales que guíen los siguientes pasos del proyecto. Se utilizarán herramientas como Pandas, Matplotlib, Seaborn y Plotly para la manipulación y visualización interactiva de los datos.
 
 ✅ Práctico 2 – Análisis Exploratorio y Curación de Datos
-Se trabajará en la limpieza, transformación y validación del dataset.
-Esto incluirá el tratamiento de valores faltantes, duplicados, outliers y normalización.
 
-Además:
+Se trabajara la depuración, transformación y validación del dataset para asegurar su calidad antes del modelado. Se identificarán y tratarán valores faltantes, inconsistencias, duplicados y outliers. También se realizarán transformaciones necesarias y ajuste de formatos de fechas.
 
-Se ajustarán montos por inflación usando índices oficiales
+Adicionalmente, se ajustarán los valores monetarios por inflación utilizando índices de precios oficiales para homogeneizar los montos a moneda constante. Luego, se aplicará una estandarización de los montos con el fin de facilitar la comparación entre puntos de venta y mejorar la performance de los modelos de machine learning.
 
-Se estandarizarán los valores monetarios para facilitar comparaciones y mejorar el rendimiento de los modelos
-
-Todas las transformaciones serán documentadas y evaluadas en términos de impacto sobre la integridad de los datos.
+Todas las decisiones tomadas durante esta etapa serán documentadas, y se evaluará su impacto sobre la integridad del conjunto de datos.
 
 ✅ Práctico 3 – Modelado con Machine Learning
-Se implementarán técnicas de aprendizaje supervisado y no supervisado para cubrir los tres ejes del proyecto:
 
-Clusterización: Agrupamiento de PDV mediante K-Means, DBSCAN o GMM
-
-Recomendación de productos: Sistemas colaborativos y basados en contenido
-
-Predicción de demanda: Modelos supervisados como XGBoost, Random Forest y regresión lineal
+Se trabajara la implementación de modelos de machine learning tanto supervisados como no supervisados para abordar los distintos objetivos del proyecto.
+En la fase de aprendizaje no supervisado, se aplicarán algoritmos de clusterización como K-Means, DBSCAN o Gaussian Mixture Models para segmentar los puntos de venta en función de su comportamiento de compra. Esta segmentación permitirá identificar grupos con características similares, facilitando estrategias comerciales diferenciadas por perfil de cliente.
+En paralelo, se desarrollará un sistema de recomendación de productos para cada punto de venta. Se explorarán tanto enfoques colaborativos (basados en similitud entre puntos de venta) como basados en contenido (características de los productos o historial de compra). El objetivo será sugerir productos relevantes para cada cliente, optimizando la oferta comercial y aumentando la probabilidad de compra.
+Por último, en la fase de aprendizaje supervisado, se construirán modelos de predicción de demanda por punto de venta y producto, utilizando algoritmos como XGBoost, Random Forest, regresión lineal, redes neuronales u otros. Estos modelos permitirán anticipar el volumen de ventas, mejorando la planificación logística, el abastecimiento y la gestión de inventario. Como bonus, integraremos toda la informacion de salida de cada practico a un repositorio de datos para que un modelo de AI Generativa genere las recomendaciones mediante un asistente teniendo en cuenta dichos datos.
 
 
 
