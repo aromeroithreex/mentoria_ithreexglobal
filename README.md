@@ -1,7 +1,8 @@
-📊 El Modelo Conoce al Cliente
+# 📊 El Modelo Conoce al Cliente
 Clustering, Recomendaciones y Forecasting para Maximizar tus Ventas
 
-🧠 Descripción y Objetivo del Proyecto
+## 🧠  Descripción y Objetivo del Proyecto
+
 Este proyecto parte de una base de datos transaccional que registra ventas realizadas a distintos puntos de venta (PDV), los cuales funcionan como clientes en el sistema.
 El objetivo es aplicar técnicas de ciencia de datos para extraer valor estratégico y mejorar la toma de decisiones comerciales.
 
@@ -34,7 +35,7 @@ Optimizar el manejo de stock
 
 La mentoría busca que los participantes apliquen metodologías reales de ciencia de datos sobre un caso concreto, combinando exploración, modelado y comunicación de resultados.
 
-❓ Preguntas que Guiarán el Proyecto
+## ❓ Preguntas que Guiarán el Proyecto
 ¿Qué patrones de comportamiento de compra se pueden identificar entre los puntos de venta?
 
 ¿Cómo segmentar a los PDV para reflejar diferencias significativas en sus hábitos de consumo?
@@ -45,7 +46,7 @@ La mentoría busca que los participantes apliquen metodologías reales de cienci
 
 ¿Qué variables influyen más en el volumen de ventas y cómo varían según el cliente?
 
-🧪 Estructura de los Prácticos
+## 🧪 Estructura de los Prácticos (a definir)
 ✅ Práctico 1 – Análisis y Visualización
 Consistirá en una exploración inicial del dataset para comprender su estructura y principales variables (ventas, frecuencia, productos, fechas, etc.).
 Se generarán visualizaciones que permitan identificar tendencias, estacionalidades y anomalías.
@@ -73,11 +74,5 @@ Recomendación de productos: Sistemas colaborativos y basados en contenido
 
 Predicción de demanda: Modelos supervisados como XGBoost, Random Forest y regresión lineal
 
-📏 Métricas utilizadas:
 
-Silhouette Score, Davies-Bouldin Index (para clusters)
-
-Precision@k, Recall@k (para recomendadores)
-
-RMSE, MAE (para regresión)
 
