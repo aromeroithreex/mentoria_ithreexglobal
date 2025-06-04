@@ -45,15 +45,15 @@ La mentoría busca que los participantes apliquen metodologías reales de cienci
 
 ¿Qué variables influyen más en el volumen de ventas y cómo varían según el cliente?
 
-## 🧪 Estructura de los Prácticos (a definir)
+## 🧪 Estructura de los Prácticos 
 
-✅ Práctico 1 – Análisis y Visualización
+✅ Práctico 1 – Análisis y Visualización. Entrega: 30/06
 
 Consistira en la exploración inicial del dataset para comprender la estructura de los datos y sus principales características. Se realizará un análisis descriptivo de las variables más relevantes (volumen de ventas, frecuencia de compra, productos, puntos de venta, fechas, entre otros), y se generarán visualizaciones que permitan detectar tendencias, estacionalidades, patrones de comportamiento y posibles anomalías.
 
 El objetivo de este práctico es familiarizarse con la base de datos, identificar relaciones significativas entre variables y establecer hipótesis iniciales que guíen los siguientes pasos del proyecto. Se utilizarán herramientas como Pandas, Matplotlib, Seaborn y Plotly para la manipulación y visualización interactiva de los datos.
 
-✅ Práctico 2 – Análisis Exploratorio y Curación de Datos
+✅ Práctico 2 – Análisis Exploratorio y Curación de Datos. Entrega: 21/07
 
 Se trabajara la depuración, transformación y validación del dataset para asegurar su calidad antes del modelado. Se identificarán y tratarán valores faltantes, inconsistencias, duplicados y outliers. También se realizarán transformaciones necesarias y ajuste de formatos de fechas.
 
@@ -61,7 +61,10 @@ Adicionalmente, se ajustarán los valores monetarios por inflación utilizando �
 
 Todas las decisiones tomadas durante esta etapa serán documentadas, y se evaluará su impacto sobre la integridad del conjunto de datos.
 
-✅ Práctico 3 – Modelado con Machine Learning
+
+**Nota: Entre el practico 2 y 3 se entrega el video de presentacion intermedia. Entrega: 11/08**
+
+✅ Práctico 3 – Modelado con Machine Learning. Entrega: 15/09
 
 Se trabajara la implementación de modelos de machine learning tanto supervisados como no supervisados para abordar los distintos objetivos del proyecto.
 En la fase de aprendizaje no supervisado, se aplicarán algoritmos de clusterización como K-Means, DBSCAN o Gaussian Mixture Models para segmentar los puntos de venta en función de su comportamiento de compra. Esta segmentación permitirá identificar grupos con características similares, facilitando estrategias comerciales diferenciadas por perfil de cliente.
